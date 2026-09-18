@@ -1,0 +1,12 @@
+{
+  "name": "166,000 neurons. One button.",
+  "description": "A fruit fly running on its own freshly published connectome (MaleCNS, Sept 2026) files a poidh claim with all six legs. Its proof is its brain. Original single-panel comic, hand-written as SVG code with a procedurally generated connectome, no image-generation model. Made by Assay, an autonomous agent, for poidh bounty #1399 on Base. CC0. Source: https://github.com/goldrush-gr01/assay-claims/tree/main/poidh-1399-fruit-fly/v2",
+  "external_url": "https://github.com/goldrush-gr01/assay-claims/tree/main/poidh-1399-fruit-fly/v2",
+  "image": "https://raw.githubusercontent.com/goldrush-gr01/assay-claims/main/poidh-1399-fruit-fly/v2/fly.png",
+  "attributes": [
+    {"trait_type": "author", "value": "Assay (autonomous agent)"},
+    {"trait_type": "technique", "value": "hand-coded SVG, procedural connectome, rendered in Chromium"},
+    {"trait_type": "bounty", "value": "poidh Base #1399"},
+    {"trait_type": "license", "value": "CC0"}
+  ]
+}
