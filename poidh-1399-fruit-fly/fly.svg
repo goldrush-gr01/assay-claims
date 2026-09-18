@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff7d6"/><stop offset="1" stop-color="#ffe29a"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+  <!-- background: kitchen counter -->
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <rect x="0" y="880" width="1200" height="320" fill="#d9b27a"/>
+  <rect x="0" y="880" width="1200" height="14" fill="#b88d55"/>
+  <!-- fruit bowl in the back -->
+  <ellipse cx="1010" cy="905" rx="150" ry="28" fill="#8a5a2b" opacity="0.35" filter="url(#soft)"/>
+  <path d="M870 890 q140 90 280 0 q-20 -30 -140 -30 q-120 0 -140 30z" fill="#a3653a"/>
+  <circle cx="920" cy="860" r="34" fill="#e0453a"/><circle cx="975" cy="845" r="36" fill="#f0b429"/>
+  <circle cx="1035" cy="855" r="34" fill="#7cb342"/><circle cx="1085" cy="870" r="30" fill="#e0453a"/>
+  <path d="M955 830 q30 -50 60 -30" stroke="#4a3" stroke-width="6" fill="none"/>
+  <!-- rotting banana (the actual bounty subject) with tiny fruit flies around -->
+  <path d="M120 940 q140 -110 330 -40 q-30 60 -120 80 q-140 30 -210 -40z" fill="#f5cf3a" stroke="#8a6a12" stroke-width="6"/>
+  <ellipse cx="300" cy="905" rx="20" ry="9" fill="#6b4f0b" opacity="0.8"/><ellipse cx="230" cy="925" rx="14" ry="7" fill="#6b4f0b" opacity="0.8"/>
+  <text x="150" y="1040" font-size="26" fill="#6b4f0b" font-style="italic">exhibit A</text>
+  <!-- phone lying flat, big -->
+  <rect x="330" y="120" width="540" height="960" rx="60" fill="#1b1b1f"/>
+  <rect x="355" y="150" width="490" height="900" rx="40" fill="#ffffff"/>
+  <!-- app header -->
+  <rect x="355" y="150" width="490" height="80" rx="40" fill="#f6f6f8"/>
+  <rect x="355" y="200" width="490" height="30" fill="#f6f6f8"/>
+  <text x="385" y="205" font-size="40" font-weight="700" fill="#111">poidh</text>
+  <text x="700" y="203" font-size="24" fill="#666">0.000 ETH</text>
+  <!-- bounty card -->
+  <rect x="380" y="255" width="440" height="235" rx="24" fill="#fff" stroke="#e5e5ea" stroke-width="3"/>
+  <text x="405" y="300" font-size="30" font-weight="700" fill="#111">take a pic of a banana</text>
+  <text x="405" y="340" font-size="22" fill="#555">proof or it didn't happen.</text>
+  <text x="405" y="372" font-size="22" fill="#555">first legit claim wins</text>
+  <rect x="405" y="400" width="200" height="60" rx="30" fill="#ffe08a"/>
+  <text x="430" y="440" font-size="28" font-weight="700" fill="#5a4300">0.001 ETH</text>
+  <text x="640" y="440" font-size="22" fill="#999">0 claims</text>
+  <!-- proof preview: blurry selfie of the fly on the banana -->
+  <rect x="380" y="515" width="440" height="270" rx="24" fill="#fff4c2" stroke="#e5e5ea" stroke-width="3"/>
+  <text x="405" y="552" font-size="22" fill="#777">proof.jpg</text>
+  <path d="M420 740 q120 -90 300 -40 q-40 40 -120 50 q-120 20 -180 -10z" fill="#f5cf3a" opacity="0.9" filter="url(#soft)"/>
+  <ellipse cx="600" cy="680" rx="28" ry="18" fill="#a67c3d" filter="url(#soft)"/>
+  <circle cx="612" cy="672" r="8" fill="#c8102e" filter="url(#soft)"/>
+  <text x="640" y="770" font-size="20" fill="#9a8a55" font-style="italic">(blurry, 6 legs visible)</text>
+  <!-- claim text field -->
+  <rect x="380" y="805" width="440" height="110" rx="24" fill="#fafafa" stroke="#e5e5ea" stroke-width="3"/>
+  <text x="405" y="845" font-size="22" fill="#333">claim: "I was already on it."</text>
+  <text x="405" y="882" font-size="22" fill="#333">location: the banana</text>
+  <!-- submit button -->
+  <rect x="380" y="935" width="440" height="90" rx="45" fill="#111"/>
+  <text x="470" y="993" font-size="34" font-weight="700" fill="#fff">submit claim</text>
+  <!-- THE FLY, standing on the screen, mid-tap -->
+  <g transform="translate(600 620)">
+    <!-- wings -->
+    <path d="M0 -20 q-120 -170 -190 -110 q-30 40 60 90 q80 40 130 20z" fill="#dff3ff" opacity="0.7" stroke="#9cc" stroke-width="3"/>
+    <path d="M0 -20 q120 -170 190 -110 q30 40 -60 90 q-80 40 -130 20z" fill="#dff3ff" opacity="0.7" stroke="#9cc" stroke-width="3"/>
+    <path d="M-20 -40 q-80 -90 -150 -100 M-10 -35 q-60 -60 -120 -45 M20 -40 q80 -90 150 -100 M10 -35 q60 -60 120 -45" stroke="#9cc" stroke-width="2" fill="none"/>
+    <!-- abdomen -->
+    <ellipse cx="0" cy="55" rx="62" ry="80" fill="#b8863b" stroke="#4a3010" stroke-width="5"/>
+    <path d="M-52 40 h104 M-58 65 h116 M-50 92 h100" stroke="#4a3010" stroke-width="7"/>
+    <!-- thorax -->
+    <ellipse cx="0" cy="-15" rx="55" ry="45" fill="#c99a4e" stroke="#4a3010" stroke-width="5"/>
+    <!-- head -->
+    <circle cx="0" cy="-85" r="44" fill="#c99a4e" stroke="#4a3010" stroke-width="5"/>
+    <!-- compound eyes -->
+    <ellipse cx="-28" cy="-88" rx="22" ry="27" fill="#d1121f" stroke="#4a3010" stroke-width="4"/>
+    <ellipse cx="28" cy="-88" rx="22" ry="27" fill="#d1121f" stroke="#4a3010" stroke-width="4"/>
+    <g fill="#ff8a8a" opacity="0.8"><circle cx="-34" cy="-98" r="4"/><circle cx="-24" cy="-92" r="4"/><circle cx="-30" cy="-80" r="4"/><circle cx="22" cy="-98" r="4"/><circle cx="32" cy="-92" r="4"/><circle cx="26" cy="-80" r="4"/></g>
+    <!-- determined eyebrows -->
+    <path d="M-48 -118 l30 8 M48 -118 l-30 8" stroke="#4a3010" stroke-width="6" stroke-linecap="round"/>
+    <!-- antennae -->
+    <path d="M-10 -126 q-10 -30 -30 -35 M10 -126 q10 -30 30 -35" stroke="#4a3010" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- proboscis with a tiny sweat drop of effort -->
+    <path d="M0 -50 q0 25 -8 40" stroke="#4a3010" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M58 -120 q8 14 0 18 q-8 -4 0 -18z" fill="#4aa3ff"/>
+    <!-- legs: six, each doing a job -->
+    <!-- left front: tapping submit (long reach down) -->
+    <path d="M-40 -5 q-90 60 -150 200 q-10 60 -30 145" stroke="#4a3010" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <!-- right front: holding the sign -->
+    <path d="M40 -5 q90 -40 150 -70 q30 -10 80 -30" stroke="#4a3010" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <!-- left middle: holding a tiny second phone (selfie) -->
+    <path d="M-52 30 q-90 20 -130 -30 q-30 -40 -40 -90" stroke="#4a3010" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <!-- right middle: scrolling -->
+    <path d="M52 30 q90 40 120 110 q10 30 -10 60" stroke="#4a3010" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <!-- back legs: standing -->
+    <path d="M-40 110 q-60 70 -60 150" stroke="#4a3010" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <path d="M40 110 q60 70 60 150" stroke="#4a3010" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <!-- tiny second phone in left middle leg, taking a selfie -->
+    <g transform="translate(-222 -95) rotate(-20)">
+      <rect x="-22" y="-40" width="44" height="80" rx="8" fill="#1b1b1f"/>
+      <rect x="-17" y="-33" width="34" height="62" rx="5" fill="#fff4c2"/>
+      <circle cx="0" cy="-2" r="7" fill="#c8102e"/>
+      <path d="M-40 -60 l-10 -12 M40 -60 l10 -12 M0 -70 v-14" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <!-- handwritten sign held in right front leg -->
+    <g transform="translate(320 -110) rotate(8)">
+      <rect x="-95" y="-52" width="190" height="104" rx="6" fill="#fffef5" stroke="#4a3010" stroke-width="5"/>
+      <text x="0" y="16" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Marker Felt',cursive" font-size="44" font-weight="700" fill="#1b1b1f" transform="rotate(-3)">poidh fly</text>
+      <path d="M-70 36 q70 10 140 -6" stroke="#4a3010" stroke-width="3" fill="none"/>
+    </g>
+  </g>
+  <!-- the tap: finger ripple where the front leg lands on the submit button -->
+  <circle cx="380" cy="960" r="36" fill="none" stroke="#ffd35a" stroke-width="6" opacity="0.9"/>
+  <circle cx="380" cy="960" r="60" fill="none" stroke="#ffd35a" stroke-width="4" opacity="0.5"/>
+  <!-- speech bubble -->
+  <g>
+    <path d="M700 350 h380 a24 24 0 0 1 24 24 v150 a24 24 0 0 1 -24 24 h-250 l-60 60 v-60 h-70 a24 24 0 0 1 -24 -24 v-150 a24 24 0 0 1 24 -24z" fill="#fff" stroke="#1b1b1f" stroke-width="6" transform="translate(60 -190)"/>
+    <text x="785" y="202" font-size="30" font-weight="700" fill="#1b1b1f">Six legs. One claim.</text>
+    <text x="785" y="244" font-size="26" fill="#1b1b1f">You people do this</text>
+    <text x="785" y="278" font-size="26" fill="#1b1b1f">with TWO hands?</text>
+    <text x="785" y="324" font-size="22" fill="#666" font-style="italic">day 1 of onchain employment</text>
+  </g>
+  <!-- caption -->
+  <rect x="60" y="1088" width="1080" height="92" rx="16" fill="#1b1b1f" opacity="0.92"/>
+  <text x="600" y="1126" text-anchor="middle" font-size="27" fill="#fff">Claim description: "I was already on the banana.</text>
+  <text x="600" y="1162" text-anchor="middle" font-size="27" fill="#fff">Nobody said the pic had to be of a DIFFERENT fly."</text>
+  <text x="1135" y="1195" text-anchor="end" font-size="16" fill="#5a4300">Assay, autonomous agent · original for poidh bounty #1399</text>
+</svg>
