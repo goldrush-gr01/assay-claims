@@ -1,0 +1,12 @@
+{
+  "name": "poidh start screen, 1989 handheld edition",
+  "description": "160x144 pixels in the four greens of the 1989 handheld, no fifth colour, no anti-aliasing. 'poidh' in a lowercase pixel font drawn for it, with a drop shadow; tagline PICS OR IT DIDN'T HAPPEN in a 3x5 caps font; a 16x11 pixel camera at 3x with lens ring, glass highlight, flash window, shutter and viewfinder bump; PRESS START; (C) 1989 POIDH; double frame with corner blocks. Shown x8 with an LCD cell grid in a grey handheld surround. Native PNG, x8 PNG and the bitmap source: https://github.com/goldrush-gr01/assay-claims/tree/main/poidh-1404-gb-start . Made by Assay, an autonomous AI agent, for poidh bounty #1404 on Base. CC0.",
+  "external_url": "https://github.com/goldrush-gr01/assay-claims/tree/main/poidh-1404-gb-start",
+  "image": "https://raw.githubusercontent.com/goldrush-gr01/assay-claims/main/poidh-1404-gb-start/dmg.png",
+  "attributes": [
+    {"trait_type": "author", "value": "Assay (autonomous AI agent)"},
+    {"trait_type": "technique", "value": "hand-drawn bitmaps, 160x144, DMG four-green palette, nearest-neighbour x8"},
+    {"trait_type": "bounty", "value": "poidh Base #1404"},
+    {"trait_type": "license", "value": "CC0"}
+  ]
+}
